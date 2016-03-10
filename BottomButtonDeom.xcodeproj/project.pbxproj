@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF45A221C901CED00742AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF45A211C901CED00742AF8 /* main.m */; };
+		FEF45A251C901CED00742AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF45A241C901CED00742AF8 /* AppDelegate.m */; };
+		FEF45A281C901CED00742AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF45A271C901CED00742AF8 /* ViewController.m */; };
+		FEF45A2B1C901CED00742AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A291C901CED00742AF8 /* Main.storyboard */; };
+		FEF45A2D1C901CED00742AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A2C1C901CED00742AF8 /* Assets.xcassets */; };
+		FEF45A301C901CED00742AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF45A2E1C901CED00742AF8 /* LaunchScreen.storyboard */; };
+		FEF45A3A1C90214D00742AF8 /* BttomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF45A391C90214D00742AF8 /* BttomButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEF45A1D1C901CED00742AF8 /* BottomButtonDeom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomButtonDeom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF45A211C901CED00742AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEF45A231C901CED00742AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEF45A241C901CED00742AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEF45A261C901CED00742AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEF45A271C901CED00742AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEF45A2A1C901CED00742AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEF45A2C1C901CED00742AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF45A2F1C901CED00742AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEF45A311C901CED00742AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF45A381C90214D00742AF8 /* BttomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BttomButton.h; sourceTree = "<group>"; };
+		FEF45A391C90214D00742AF8 /* BttomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BttomButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF45A1A1C901CED00742AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF45A141C901CED00742AF8 = {
+			isa = PBXGroup;
+			children = (
+				FEF45A1F1C901CED00742AF8 /* BottomButtonDemo */,
+				FEF45A1E1C901CED00742AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF45A1E1C901CED00742AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF45A1D1C901CED00742AF8 /* BottomButtonDeom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF45A1F1C901CED00742AF8 /* BottomButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEF45A371C9020BE00742AF8 /* BttomButtonSrc */,
+				FEF45A231C901CED00742AF8 /* AppDelegate.h */,
+				FEF45A241C901CED00742AF8 /* AppDelegate.m */,
+				FEF45A261C901CED00742AF8 /* ViewController.h */,
+				FEF45A271C901CED00742AF8 /* ViewController.m */,
+				FEF45A291C901CED00742AF8 /* Main.storyboard */,
+				FEF45A2C1C901CED00742AF8 /* Assets.xcassets */,
+				FEF45A2E1C901CED00742AF8 /* LaunchScreen.storyboard */,
+				FEF45A311C901CED00742AF8 /* Info.plist */,
+				FEF45A201C901CED00742AF8 /* Supporting Files */,
+			);
+			name = BottomButtonDemo;
+			path = BottomButton;
+			sourceTree = "<group>";
+		};
+		FEF45A201C901CED00742AF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF45A211C901CED00742AF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF45A371C9020BE00742AF8 /* BttomButtonSrc */ = {
+			isa = PBXGroup;
+			children = (
+				FEF45A381C90214D00742AF8 /* BttomButton.h */,
+				FEF45A391C90214D00742AF8 /* BttomButton.m */,
+			);
+			path = BttomButtonSrc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF45A1C1C901CED00742AF8 /* BottomButtonDeom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF45A341C901CED00742AF8 /* Build configuration list for PBXNativeTarget "BottomButtonDeom" */;
+			buildPhases = (
+				FEF45A191C901CED00742AF8 /* Sources */,
+				FEF45A1A1C901CED00742AF8 /* Frameworks */,
+				FEF45A1B1C901CED00742AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BottomButtonDeom;
+			productName = BottomButton;
+			productReference = FEF45A1D1C901CED00742AF8 /* BottomButtonDeom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF45A151C901CED00742AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = noOrganization;
+				TargetAttributes = {
+					FEF45A1C1C901CED00742AF8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FEF45A181C901CED00742AF8 /* Build configuration list for PBXProject "BottomButtonDeom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF45A141C901CED00742AF8;
+			productRefGroup = FEF45A1E1C901CED00742AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF45A1C1C901CED00742AF8 /* BottomButtonDeom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF45A1B1C901CED00742AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF45A301C901CED00742AF8 /* LaunchScreen.storyboard in Resources */,
+				FEF45A2D1C901CED00742AF8 /* Assets.xcassets in Resources */,
+				FEF45A2B1C901CED00742AF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF45A191C901CED00742AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF45A281C901CED00742AF8 /* ViewController.m in Sources */,
+				FEF45A251C901CED00742AF8 /* AppDelegate.m in Sources */,
+				FEF45A3A1C90214D00742AF8 /* BttomButton.m in Sources */,
+				FEF45A221C901CED00742AF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEF45A291C901CED00742AF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF45A2A1C901CED00742AF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF45A2E1C901CED00742AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF45A2F1C901CED00742AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF45A321C901CED00742AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FEF45A331C901CED00742AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEF45A351C901CED00742AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BottomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = noOrganization.BottomButton;
+				PRODUCT_NAME = BottomButtonDeom;
+			};
+			name = Debug;
+		};
+		FEF45A361C901CED00742AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BottomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = noOrganization.BottomButton;
+				PRODUCT_NAME = BottomButtonDeom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF45A181C901CED00742AF8 /* Build configuration list for PBXProject "BottomButtonDeom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF45A321C901CED00742AF8 /* Debug */,
+				FEF45A331C901CED00742AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF45A341C901CED00742AF8 /* Build configuration list for PBXNativeTarget "BottomButtonDeom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF45A351C901CED00742AF8 /* Debug */,
+				FEF45A361C901CED00742AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF45A151C901CED00742AF8 /* Project object */;
+}
